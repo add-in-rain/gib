@@ -1,0 +1,115 @@
+.left-float div {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+}
+
+.clear {
+  clear: both;
+}
+
+.left-inline div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+}
+
+.left-flex {
+  display: flex;
+}
+
+.left-flex div {
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+}
+
+.right-float div {
+  float: right;
+}
+
+.right-float div div {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: 5px solid blue;
+}
+
+.right-inline {
+  text-align: right;
+}
+
+.right-inline div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 5px solid blue;
+}
+
+.right-flex {
+  display: flex;
+  justify-content: end;
+}
+
+.right-flex div {
+  width: 100px;
+  height: 100px;
+  border: 5px solid blue;
+}
+
+.center-float {
+  width: 330px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.center-float div {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: 5px solid green;
+}
+
+.center-inline {
+  text-align: center;
+}
+
+.center-inline div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 5px solid green;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.center-flex div {
+  width: 100px;
+  height: 100px;
+  border: 5px solid green;
+}
+
+.flex {
+  display: flex;
+  /* 기본값이 row */
+  flex-direction: column;
+  /* 주축을 정렬하는 속성 */
+  /* justify-content: center; */
+  align-items: center;
+  width: 800px;
+  height: 800px;
+  border: 5px solid #000;
+}
+
+.flex div {
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  border: 1px solid greenyellow;
+  color: #fff;
+}
