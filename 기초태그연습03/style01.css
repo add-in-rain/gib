@@ -1,0 +1,31 @@
+.naver {
+  width: 550px;
+  height: 550px;
+  box-shadow: 10px 10px 5px #888;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #888;
+}
+
+.google {
+  width: 550px;
+  height: 280px;
+  box-shadow: 10px 10px 5px #888;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #888;
+}
+
+.txt-right {
+  text-align: center;
+}
+
+.img-center {
+  text-align: center;
+}
+
+.link-prac {
+  width: 600px;
+  border: 1px soild red;
+  margin: 0 auto;
+}

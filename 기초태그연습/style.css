@@ -1,0 +1,27 @@
+img {
+  width: 200px;
+}
+
+#연습 {
+ border: 5px solid red;
+}
+
+.연습1 {
+  border: 5px solid red;
+}
+
+div {
+  color: red;
+}
+
+.메롱 {
+  color: blue;
+}
+
+span {
+  color: aquamarine;
+}
+
+.메롱1 {
+  color: aqua;
+}

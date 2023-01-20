@@ -1,0 +1,34 @@
+img {
+  width: 400px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.under {
+  text-decoration: underline;
+}
+
+.google, .naver {
+  width: 480px;
+  box-shadow: 10px 10px 5px #888;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.img-center {
+  text-align: center;
+}
+
+.link-prac {
+  width: 600px;
+  border: 1px soild red;
+  margin: 0 auto;
+}
