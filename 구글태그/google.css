@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+}
+
+.google {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.google img {
+  width: 400px;
+}
+
+.bgc {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 20px 0;
+}
+
+.logo {
+  display: block;
+  margin-top: 80px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 80px;
+}

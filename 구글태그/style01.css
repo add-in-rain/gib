@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+.google {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.google img {
+  width: 400px;
+}
+
+.open-google {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 18px;
+}
