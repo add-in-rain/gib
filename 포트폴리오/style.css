@@ -1,0 +1,121 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.wrapper {
+  background-color: #282828;
+  border: 1px solid #868686;
+  border-radius: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+.mac-btn-list {
+  display: flex;
+  padding: 10px 0;
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #151515;
+  border-radius: 10px 10px 0 0;
+}
+
+.mac-btn-item {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.mac-btn-item:last-child {
+  margin-right: 0;
+}
+
+.red {
+  background-color: #db4932;
+  margin-left: 8px;
+  /* margin-right: 6px; */
+}
+
+.yellow {
+  background-color: #ffc34a;
+  /* margin-right: 6px; */
+}
+
+.green {
+  background-color: #59c24b;
+}
+
+.gnb-nav-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gnb-nav-item {
+  margin-right: 30px;
+}
+
+.gnb-nav-item a {
+  font-weight: bold;
+}
+
+.gnb-nav-item:last-child {
+  margin-right: 0;
+}
+
+.info-section-text {
+  margin-top: 30px;
+}
+
+.my-name {
+  color: #fff;
+}
+
+.hu-tao {
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.global-footer {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list-title {
+  color: #fff;
+  margin-right: 40px;
+}
+
+.contact-list-item {
+  margin-right: 20px;
+}
+
+.contact-list-item:last-child {
+  margin-right: 0;
+}
+
