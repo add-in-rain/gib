@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>모델</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/15692e9b13.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <button type="button" id="open-btn" class="open-btn">열기</button>
+
+    <div class="img-list">
+      <img src="./images/이미지01.jpg" alt="그림1">
+      <img src="./images/이미지02.jpg" alt="그림2">
+      <img src="./images/이미지03.jpg" alt="그림3">
+      <img src="./images/이미지04.jpg" alt="그림4">
+      <img src="./images/이미지05.jpg" alt="그림5">
+    </div>
+
+    <div id="img-modal" class="modal1">
+      <div id="img-modal-box">
+        <button type="button" id="img-modal-btn" class="close-btn">
+          <i class="fa-solid fa-circle-xmark"></i>
+        </button>
+        <div id="img-wrapper">
+          <img src="./images/이미지메인.jpeg" alt="그림메인">
+        </div>
+      </div>
+    </div>
+
+    <div id="modal" class="modal2">
+      <div id="modal-box">
+        <div id="modal-head">
+          <span>모달 타이틀</span>
+          <button type="button" id="modal-close" class="close-btn">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </button>
+        </div>
+        <div id="modal-sec">
+          <img src="./images/이미지메인.jpeg" alt="그림메인">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorum provident, fugiat sit eaque quaerat quae numquam corporis ex, officia veniam excepturi quod totam asperiores, sequi qui soluta libero. Debitis?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
+</body>
+</html>
