@@ -1,0 +1,155 @@
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+header {
+  background-color: rgb(255, 208, 0);
+}
+
+.gnb-nav {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  margin-left: 30px;
+  color:  red;
+}
+
+.logo img {
+  width: 70px;
+  display: flex;
+}
+
+.gnb-list {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.gnb-item {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.lnb-wrapper {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+
+.lnb-list {
+  display: flex;
+  padding: 10px 0;
+}
+
+.lnb-item:first-child {
+  margin-left: 20px;
+}
+
+.lnb-item {
+  padding: 0 10px;
+}
+
+.lnb-item a {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.background {
+  height: 600px;
+  background-image: url('./images/lego.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.empty-box {
+  height: 1500px;
+}
+
+@media screen and (max-width:3000px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 100vh; 
+    background-color: #fff;
+    padding: 32px 20px;
+    z-index: 200;
+    transform: translate(-230px, 0);
+    transition: transform 200ms ease-in-out;
+   }  
+
+  .side-menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(168, 168, 170, 0.5);
+   }
+
+   .side-menu-item:first-child {
+    border-top: none;
+   }
+
+   .side-menu-item a {
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    height: 36px;
+    color: #3f4150;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .side-menu-item img {
+    align-items: center;
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .side-menu-item i {
+    margin-right: 10px;
+  }
+
+   .sidebar.is-active {
+    transform: translate(0, 0);
+   }
+
+   .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(63, 65, 80, 0.5);
+    display: none;
+    transition: display 200ms ease-in-out;
+   }
+
+   .overlay.is-active {
+    display: block;
+   }
+}
